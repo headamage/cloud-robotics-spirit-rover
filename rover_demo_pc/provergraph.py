@@ -2,7 +2,7 @@ import pyqtgraph as pg
 from pyqtgraph.Qt import QtCore, QtGui
 import numpy as np
 import random, socket
-graph_addr  = ('192.168.11.21', 10001)
+graph_addr  = ('192.168.11.21', 10001) #Change to match the IP of the PC running the graph code.
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind(graph_addr)
 ## Populate the plot arrays with 0 
