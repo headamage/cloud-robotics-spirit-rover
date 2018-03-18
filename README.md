@@ -5,6 +5,8 @@ Make sure the Raspberry Pi boots up and you can SSH to it over WiFi. I assume yo
 
 This code will allow you to stream sensor data from the rover to a PC where all the processing is performed and motor/servo instructions are sent back to the rover. The code also allows for manual control of the rover if the user wishes to do that. The autonomous mode behaves similarly to demo mode 2 of the shipping code except instead of running the logic on the arduino, it runs on a PC.
 
+Feel free to clone and modify the code.
+
 File locations are as follows:
 
 manualrover.py should be on the PC controlling the rover
