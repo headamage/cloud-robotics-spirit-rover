@@ -3,9 +3,9 @@ from multiprocessing import Process, Pipe
 from time import sleep
 
 # Network variables
-ai_addr = ('192.168.11.21', 10000)
-rover_addr  = ('192.168.11.13', 10000)
-graph_addr = ('192.168.11.21', 10001)
+ai_addr = ('192.168.11.21', 10000) #Change to match the IP of the PC running this code
+rover_addr  = ('192.168.11.13', 10000) #Change to match the IP of the rover
+graph_addr = ('192.168.11.21', 10001) #Change to match the IP of the PC running the graph code. Typically same as AI.
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind(ai_addr)
 
