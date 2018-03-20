@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import random, singal, sys
+import random, signal, sys
 from time import sleep
 import spirit_core
 import spirit_pixels as pixels   #pixel functions - read over spirit_pixels.py for more info
